@@ -97,17 +97,11 @@ Aplikasi tidak memakai login, jadi tidak ada akun uji. Data contoh sudah tersedi
 | No | Skenario | Langkah | Hasil diharapkan | Hasil aktual | Status | Bukti |
 |----|----------|---------|------------------|--------------|--------|-------|
 | 1 | Tambah siswa valid | Data Siswa → Tambah → isi NIS 10013 dan data lengkap → Simpan | Data tersimpan, notifikasi hijau | [Data Tersimpan dengan baik dan nontifikasi hijau] | [Berhasil] | [Uji1](docs/screenshots/Uji1.png) |
-
 | 2 | NIS tidak valid | Tambah siswa dengan NIS "abc" | Pesan error, data tidak tersimpan | [isi] | [Pesan Error "NISN wajib diisi dengan angka"] |  [Uji2](docs/screenshots/Uji2.png) |
-
 | 3 | NIS duplikat | Tambah siswa dengan NIS 10001 | Pesan "NIS sudah terdaftar" | [Pesan Error "Nomor NISN berikut sudah terdaftar"] | [Berhasil] |  [Uji3](docs/screenshots/Uji3.png) |
-
 | 4 | Pembayaran valid | Pembayaran → Budi, September 2026, 150000 | Berhasil, total dibayar bertambah | [Pesan berhasil "Pembayaran berhasil disimpan"] | [Berhasil] |  [Uji4](docs/screenshots/Uji4.png) [Uji4](docs/screenshots/Uji4b.png) |
-
 | 5 | Pembayaran tidak valid | Jumlah -5000 | Pesan error, data tidak tersimpan | [Pesan Error "Jumlah harus angka lebih dari 0"] | [Berhasil] |  [Uji5](docs/screenshots/Uji5.png) |
-
 | 6 | Hapus siswa punya pembayaran | Hapus Ahmad Fauzi | Ditolak dengan pesan error | [Pesan Error "Data siswa berikut memiliki riwayat"] | [Berhasil] | [Uji6](docs/screenshots/Uji6.png) |
-
 | 7 | Pencarian | Cari "Citra" | Hanya Citra tampil | [Berhasil ditemukan dan hanya ada 1 Citra] | [Berhasil] | [Uji7](docs/screenshots/Uji7.png) |
 
 ## Kendala dan Perbaikan
